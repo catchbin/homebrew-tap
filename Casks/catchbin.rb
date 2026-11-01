@@ -25,7 +25,7 @@ cask "catchbin" do
 
   name "catchbin"
   desc "Forward and replay cloud-captured webhooks to localhost"
-  homepage "https://catchbin.io"
+  homepage "https://github.com/catchbin/cli"
 
   livecheck do
     skip "Auto-generated on release."
