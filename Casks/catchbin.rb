@@ -31,6 +31,8 @@ cask "catchbin" do
     skip "Auto-generated on release."
   end
 
+  disable! date: "2026-10-31", because: :discontinued
+
   binary "catchbin"
 
   postflight do
